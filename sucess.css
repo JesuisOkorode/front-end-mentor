@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+ }
+
+body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400, 700;
+    background-color: var(--Charcoal-Grey);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; 
+}
+main {
+    background-color: var(--White);
+    width: 35%;
+    height: 65vh;
+    padding: 40px 50px 50px 50px;
+    border-radius: 25px;
+    margin: 40px;
+}
+.icon-image img {
+    width: 45px;
+}
+h1 {
+    font-size: 40px;
+    color: var(--Charcoal-Grey);
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    line-height: 40px;
+}
+.paragraph {
+    font-size:16px;
+    font-weight: 400;
+    color: var(--Charcoal-Grey);
+    padding-bottom: 5px;     
+}
+.paragraph-1{
+    font-size:16px;
+    font-weight: 400;
+    color: var(--Charcoal-Grey);
+    padding-bottom: 5px;     
+}
+.paragraph-2 {
+    font-size:16px;
+    font-weight: 400;
+    color: var(--Charcoal-Grey);
+    padding-bottom: 30px;    
+}
+button {
+    width: 100%;
+    padding:12px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Dark-Slate-Grey);
+    color: var(--White);
+    margin-top: 10px;
+}
+button:hover{
+    background-color: var(--Tomato);
+    transition: 0.5s;
+}
